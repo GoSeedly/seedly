@@ -1,0 +1,14 @@
+item,current_location,target_location,handling,owner,status,validation
+Contacts and companies,,,Export and map,,To do,Verify sample records and field values
+Tags and custom fields,,,Export and map,,To do,Confirm tags and critical fields on sample contacts
+Consent and unsubscribes,,,Export and validate,,To do,Verify a suppressed test contact stays suppressed
+Deals and pipelines,,,Export or recreate,,To do,Match open deals to stages and owners
+Calendars and future bookings,,,Review and recreate if needed,,To do,Book and reschedule a test appointment
+Forms and landing pages,,,Rebuild and repoint,,To do,Test a form from submission through CRM routing
+Email templates and sending domains,,,Recreate and configure,,To do,Confirm sender setup and test delivery and unsubscribe
+SMS numbers and templates,,,Coordinate with provider,,To do,Confirm inbound and outbound routing with a test line
+Automations and scheduled messages,,,Review and rebuild,,To do,Run a full test and check for duplicate sends
+Webhooks and integrations,,,Reconfigure,,To do,Verify a sample event reaches the correct destination
+Files and media,,,Export and reattach where supported,,To do,Open sample files and verify access
+Users and permissions,,,Recreate,,To do,Test least-privilege access for each user role
+Invoices and payment references,,,Review with billing owner,,To do,Confirm references and customer billing status
