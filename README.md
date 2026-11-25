@@ -1,78 +1,69 @@
-# Go High Level Alternatives
+<h1 align="center">Seedly.</h1>
 
-Go High Level alternatives can replace the whole agency stack or just the part you use every day. This directory compares self-hosted options for CRM, email automation, booking, websites, and courses, with downloads to help you plan a move.
+<p align="center">
+  <strong>Good software. Yours to grow.</strong><br>
+  Commercial source code for agencies and operators who want to run software under their own brand.
+</p>
 
-Seedly maintains this guide and sells commercial source code. The open-source projects below are independent and use their own licenses.
+<p align="center">
+  <a href="https://goseedly.com/demo"><img alt="Try a live demo" src="https://img.shields.io/badge/Try_a_live_demo-1D754C?style=for-the-badge"></a>
+  <a href="https://goseedly.com/shop"><img alt="Shop Seedly codebases" src="https://img.shields.io/badge/Shop_codebases-28251E?style=for-the-badge"></a>
+  <a href="https://help.goseedly.com/"><img alt="Read the documentation" src="https://img.shields.io/badge/Read_the_docs-586638?style=for-the-badge"></a>
+  <a href="https://www.facebook.com/groups/seedly.brand"><img alt="Join the Seedly Facebook group" src="https://img.shields.io/badge/Facebook_group-24539B?style=for-the-badge&amp;logo=facebook&amp;logoColor=white"></a>
+</p>
 
-[Open-source alternatives](#compare-go-high-level-alternatives) · [Migration downloads](#free-migration-downloads) · [Seedly codebases](#seedly-codebases) · [Marketplace and community](#marketplace-and-community)
+<p align="center">
+  <img src="assets/seedly-team.webp" width="440" alt="Sprout and Pixl share a high five while Buzz cheers">
+</p>
 
-## Compare Go High Level Alternatives
+## Try a live demo
 
-Start with the workflow that brings in revenue. If that's lead intake and booking, test a form submission, lead assignment, confirmation, and reschedule on the same test account. If you sell a white-label service, test tenant isolation, client access, and handoff as part of the demo.
+Pick CRM, Sites, or Communities on the [Seedly demo page](https://goseedly.com/demo) to request your access link. Try a workflow you'd actually run before you choose a codebase.
 
-### Agency platforms
+| 🌱 CRM | 🦔 Sites | 🐝 Communities |
+| :---: | :---: | :---: |
+| [![Seedly CRM demo dashboard with sales and appointment metrics](assets/seedly-crm.webp)](https://goseedly.com/products/crm) | [![Seedly Sites dashboard with a sample client website](assets/seedly-sites.webp)](https://goseedly.com/products/sites) | [![Seedly Communities demo feed with sample member posts](assets/seedly-communities.webp)](https://goseedly.com/products/communities) |
+| Open a contact, move a deal, and inspect a workflow. | Open a sample site and work through a page edit. | Browse the feed, open a lesson, and preview membership settings. |
+| [Explore CRM](https://goseedly.com/products/crm) | [Explore Sites](https://goseedly.com/products/sites) | [Explore Communities](https://goseedly.com/products/communities) |
 
-These projects cover several jobs in one application. Check each project's current release and installation instructions, then test the features your clients rely on.
+## Build your stack
 
-| Project | Where it fits | What to verify | Upstream license |
-| --- | --- | --- | --- |
-| [GoHyperLevel](https://github.com/BAISESYSTEMS/GoHyperLevel) | CRM, sales pipelines, inbox, automations, invoicing, and courses | Try your messaging provider and confirm the controls available to each client | AGPL-3.0 |
-| [Open Agency OS](https://github.com/SahibYar/open-agency-os) | CRM, shared inbox, booking, SMS automation, and email marketing | Run your booking and follow-up flow with your own sending setup | MIT |
-| [SeldonFrame](https://github.com/seldonframe/seldonframe) | Lead intake, websites, bookings, and CRM for local-business agencies | Test client workspaces and your lead routing before consolidating services | AGPL-3.0 |
+Start with the part of your business you want to take more control over. Each Seedly purchase includes the relevant codebase and setup materials under the [Seedly commercial software license](https://goseedly.com/license). You deploy it in your accounts and cover your hosting and connected services.
 
-### CRM, pipelines, and operations
+| Codebase | What you can run | Start here |
+| --- | --- | --- |
+| **Seedly CRM** | Contacts, pipelines, booking, shared inbox, forms, and automation for client work. | [Product](https://goseedly.com/products/crm) · [Setup guide](https://help.goseedly.com/crm/setup) |
+| **Seedly Sites** | A branded client website and funnel builder with a CMS and visual editing. | [Product](https://goseedly.com/products/sites) · [Setup guide](https://help.goseedly.com/sites/getting-started) |
+| **Seedly Communities** | A branded community with discussions, courses, memberships, and events. | [Product](https://goseedly.com/products/communities) · [Setup guide](https://help.goseedly.com/communities/getting-started) |
+| **Seedly Dispatch** | Job scheduling and field operations connected to Seedly CRM. Requires CRM. | [Product](https://goseedly.com/products/dispatch) · [Docs](https://help.goseedly.com/dispatch) |
+| **Seedly Linkd** | A guided link for collecting access to clients' marketing accounts. | [Product](https://goseedly.com/products/linkd) · [Docs](https://help.goseedly.com/linkd) |
+| **Seedly Tasks** | Project boards, time tracking, and a client portal. | [Product](https://goseedly.com/products/tasks) · [Docs](https://help.goseedly.com/tasks) |
 
-| Project | Where it fits | What to verify | Upstream license |
-| --- | --- | --- | --- |
-| [Twenty](https://github.com/twentyhq/twenty) | Contacts, companies, deals, and custom CRM records | Check edition limits for any features you need | [AGPL-3.0 core, with other terms for some components](https://github.com/twentyhq/twenty/blob/main/LICENSE) |
-| [EspoCRM](https://github.com/espocrm/espocrm) | Leads, opportunities, activities, and sales records | Check whether reports and workflows you need require an extension | AGPL-3.0 |
-| [SuiteCRM](https://github.com/SuiteCRM/SuiteCRM) | Sales, account management, and configurable CRM modules | Test import mappings, role permissions, and any extensions your team relies on | AGPL-3.0 |
-| [ERPNext](https://github.com/frappe/erpnext) | Sales processes that also need quotes, invoices, inventory, or accounting | Check local accounting requirements and the work involved in configuring them | GPL-3.0 |
+**Founders Club** includes Dispatch, Linkd, and access to the private Founders Club space for owners of CRM, Sites, and Communities. Purchases can be made separately. [Check your stack](https://goseedly.com/complete-your-stack).
 
-### Email and workflow automation
+## Get set up
 
-| Project | Where it fits | What to verify | Upstream license |
-| --- | --- | --- | --- |
-| [Mautic](https://github.com/mautic/mautic) | Segments, marketing campaigns, and lead nurturing | Test scheduled jobs, tracking, subscription preferences, and delivery events | [GPL-3.0-or-later](https://github.com/mautic/mautic/blob/7.x/LICENSE.txt) |
-| [listmonk](https://github.com/knadh/listmonk) | Newsletters, audience lists, and email campaigns | Test unsubscribe handling and keep its suppression state aligned with your other tools | AGPL-3.0 |
-| [Node-RED](https://github.com/node-red/node-red) | Connecting applications and automating work across services | Plan for failed jobs, retries, duplicate events, and credential rotation | Apache-2.0 |
+1. **Get your code.** [Choose a codebase](https://goseedly.com/shop) or sign in to [My software](https://goseedly.com/account) to download a product you already own.
+2. **Follow the product guide.** Start with the [Help Center](https://help.goseedly.com/) and the guide included in the download. Review [how Seedly works](https://goseedly.com/how-it-works) for setup companions and update workflows.
+3. **Test under your brand.** Run your key workflow in a test deployment before inviting clients or members. Connect the providers you need, verify backups, and set aside time to review [release notes](https://goseedly.com/changelog) before updating.
 
-### Booking, inbox, publishing, and courses
+## Resources for builders
 
-| Project | Where it fits | What to verify | Upstream license |
-| --- | --- | --- | --- |
-| [Easy!Appointments](https://github.com/alextselegidis/easyappointments) | Online booking, staff schedules, and appointment availability | Verify calendar sync, time zones, and rescheduling | GPL-3.0 |
-| [Chatwoot](https://github.com/chatwoot/chatwoot) | Shared inbox, web chat, and support conversations | Confirm channel availability and edition requirements | [MIT core, separate enterprise terms](https://github.com/chatwoot/chatwoot/blob/develop/LICENSE) |
-| [Ghost](https://github.com/TryGhost/Ghost) | Content sites, publishing, memberships, and newsletters | Check how you'll handle lead forms and sync members with your CRM | MIT |
-| [Moodle](https://github.com/moodle/moodle) | Structured courses, quizzes, and learner progress | Test enrollment, access, and course content transfer | GPL-3.0 |
-
-The upstream repositories link to their releases and license terms. Check the license for the version you plan to deploy, including any extensions you depend on. Compare the cost of hosting, email and SMS, backups, upgrades, and support for each option.
-
-Find more projects under the [GoHighLevel alternative topic on GitHub](https://github.com/topics/gohighlevel-alternative). [Suggest an addition](CONTRIBUTING.md) if you've found another fit.
-
-## Free migration downloads
-
-| Resource | Use it to |
+| Resource | What you'll find |
 | --- | --- |
-| [Comparison scorecard (CSV)](downloads/comparison-scorecard.csv?raw=true) | Compare candidates using real workflows, hosting costs, and operational requirements. |
-| [Migration inventory (CSV)](downloads/migration-inventory.csv?raw=true) | Assign an owner and record what you can export, what needs rebuilding, and how you'll test it. |
-| [Migration checklist (Markdown)](downloads/migration-checklist.md) · [Raw file](downloads/migration-checklist.md?raw=true) | Plan a pilot, cut over in stages, and prepare a rollback. |
-| [GoHighLevel export tool and standalone script](https://goseedly.com/blog/tools/gohighlevel-data-export) | See what can be exported and use the app's **download the standalone script** option to run the exporter locally. |
+| [Developer reference](https://developers.goseedly.com/crm/api) | REST API operations, authentication, and request examples for your CRM deployment. |
+| [Webhooks](https://developers.goseedly.com/crm/webhooks) | Events and payloads for integrations you build. |
+| [Learning Center](https://goseedly.com/learning/software-development-tutorials-for-beginners) | Free lessons on software, Git, and working with code. |
+| [GoHighLevel export tool](https://goseedly.com/blog/tools/gohighlevel-data-export) | A data export tool with a standalone script you can download and run locally. |
+| [GoHighLevel to Seedly migration guide](https://goseedly.com/blog/how-to-migrate-from-gohighlevel-to-seedly) | What to inventory, what to move, and what to test before cutting over. |
+| [Go High Level alternatives](guides/go-high-level-alternatives.md) | A comparison of 14 open-source projects and a guide to choosing what to replace. |
 
-## Seedly codebases
+**Free downloads** · [Comparison scorecard (CSV)](downloads/comparison-scorecard.csv?raw=true) · [Migration inventory (CSV)](downloads/migration-inventory.csv?raw=true) · [Migration checklist (Markdown)](downloads/migration-checklist.md?raw=true)
 
-If you want a starting point you can brand and deploy on your own infrastructure, [shop the Seedly codebases](https://goseedly.com/shop). Purchases include source under the [Seedly commercial license](https://goseedly.com/license). Existing buyers can access their licensed downloads in [My software](https://goseedly.com/account).
+## Meet the community
 
-| Codebase | Where it fits |
-| --- | --- |
-| [Seedly CRM](https://goseedly.com/compare/gohighlevel-crm) | Contacts, pipelines, calendars, inbox, and workflow automation. Compare it directly with GoHighLevel. |
-| [Seedly Sites](https://help.goseedly.com/sites/overview) | Branded client websites and funnels. |
-| [Seedly Communities](https://help.goseedly.com/communities/overview) | Branded communities, courses, memberships, and events. |
+- **Join the Seedly Owners Community.** Ask about setup, share something you built, or compare notes with other operators in the [Facebook group](https://www.facebook.com/groups/seedly.brand).
+- **Build for Seedly customers.** Interested in becoming a Seedly Marketplace vendor? [Contact Seedly](mailto:support@goseedly.com?subject=Seedly%20Marketplace%20vendor%20inquiry) with what you're building, the Seedly codebase it works with, and a demo link.
+- **Make this hub better.** [See how to contribute](CONTRIBUTING.md) with a correction, new resource, or open-source project for the comparison guide.
 
-Read [how the software purchase works](https://goseedly.com/how-it-works), browse [setup documentation](https://help.goseedly.com/), or see the [GoHighLevel to Seedly migration guide](https://goseedly.com/blog/how-to-migrate-from-gohighlevel-to-seedly).
-
-## Marketplace and community
-
-- **Become a Seedly Marketplace vendor.** If you build something for Seedly users and want to sell through the marketplace, [email the Seedly team](mailto:support@goseedly.com?subject=Seedly%20Marketplace%20vendor%20inquiry) with a short description, a demo link, and which codebase it works with.
-- **Meet other Seedly users.** Join the [Seedly Facebook group](https://www.facebook.com/groups/seedly.brand) to talk about setup, migrations, and what you're building.
-- **Build an integration.** Explore the [Seedly CRM developer reference](https://developers.goseedly.com/crm/api) for API and webhook documentation.
+<sub>This repository hosts Seedly's public guides and downloads. The product codebases are distributed separately through your Seedly account under the <a href="https://goseedly.com/license">commercial license</a>.</sub>
